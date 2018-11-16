@@ -66,17 +66,15 @@ export default {
     }
 }
 
-.dayContainer {
-    .flatpickr-day.today {
-        background: red !important;
-        border-color: red !important;
-        color: white;
-    }
+.dayContainer .flatpickr-day.today {
+    background: red;
+    border-color: red;
+    color: white;
+}
 
-    .flatpickr-day.green-day {
-        background: #42b883;
-        border-color: #42b883;
-        color: white;
-    }
+.flatpickr-day.green-day {
+    background: #42b883;
+    border-color: #42b883;
+    color: white;
 }
 </style>
