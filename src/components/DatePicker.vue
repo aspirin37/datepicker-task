@@ -16,10 +16,9 @@ export default {
     },
     data() {
         return {
-            date: (new Date).toISOString(),
+            date: new Date,
             config: {
                 locale: Russian,
-                dateFormat: 'Z',
                 altFormat: 'l',
                 altInput: true,
                 altInputClass: 'date-picker__input',
